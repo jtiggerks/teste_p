@@ -14,7 +14,7 @@
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
-    <allow-navigation href="http://www.meudistribuidor.com.br/*" />
+    <allow-navigation href="http://dev.100regras.com.br/*" />
     <allow-navigation href="*" />
     <allow-intent href="*" />
     <access origin="*" />
@@ -28,4 +28,5 @@
     <preference name="xwalkMultipleApk" value="true" />
     <preference name="xwalkVersion" value="20+" />
     <preference name="android-build-tool" value="gradle" />
+    <preference name="EnableViewportScale" value="true" />
 </widget>

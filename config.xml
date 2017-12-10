@@ -31,7 +31,8 @@
     <preference name="android-minSdkVersion" value="16" />
 
     <preference name="android-build-tool" value="gradle" />
- 
+    
+    <preference name="EnableViewportScale" value="true" />
     
 
     <platform name="android">
@@ -68,7 +69,7 @@
     <platform name="android">
         <allow-intent href="market:*" />
     </platform>
- <allow-navigation href="http://www.meudistribuidor.com.br/*" />
+ <allow-navigation href="http://dev.100regras.com.br/*" />
 <plugin name="cordova-plugin-whitelist" />
 <access origin="*"/> 
     <allow-navigation href="*" />
