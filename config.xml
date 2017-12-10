@@ -60,7 +60,7 @@
         <allow-intent href="market:*" />
     </platform>
  <allow-navigation href="http://www.meudistribuidor.com.br/*" />
-<plugin name="cordova-plugin-whitelist" />
+ 
 <access origin="*"/> 
     <allow-navigation href="*" />
 <allow-intent href="*" />
