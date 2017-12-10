@@ -20,10 +20,10 @@
     <plugin name="cordova-plugin-console" source="npm" spec="~1.0.3" />
     <plugin name="cordova-plugin-dialogs" source="npm" spec="~1.2.1" /> 
 
- 
-    <gap:plugin name="cordova-plugin-crosswalk-webview" source="npm" version="1.4.0-dev-5"/>
 
-    <preference name="xwalkVersion" value="org.xwalk:xwalk_core_library_beta:14+" />
+ 
+    
+    <gap:plugin version="1.4.0-dev-11" name="cordova-plugin-crosswalk-webview-pgb-adapt"source="npm"/>
 
     <platform name="android">
         <icon density="ldpi" src="www/res/icon/android/drawable-ldpi-icon.png" />
