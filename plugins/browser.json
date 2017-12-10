@@ -22,6 +22,9 @@
         },
         "cordova-plugin-whitelist": {
             "PACKAGE_NAME": "com.testeSession"
+        },
+        "cordova-plugin-crosswalk-webview": {
+            "PACKAGE_NAME": "com.testeSession"
         }
     },
     "dependent_plugins": {}
