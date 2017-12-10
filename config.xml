@@ -22,7 +22,7 @@
 
 
  
-    <gap:plugin name="cordova-plugin-crosswalk-webview-pgb-adapt" source="npm" version="1.4.0-dev-11"/>
+    <gap:plugin name="cordova-plugin-crosswalk-webview" source="npm" />
  
 
     <platform name="android">
@@ -60,7 +60,7 @@
         <allow-intent href="market:*" />
     </platform>
  <allow-navigation href="http://www.meudistribuidor.com.br/*" />
- 
+<plugin name="cordova-plugin-whitelist" />
 <access origin="*"/> 
     <allow-navigation href="*" />
 <allow-intent href="*" />
