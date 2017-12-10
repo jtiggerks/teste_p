@@ -22,8 +22,8 @@
 
 
  
-    
-    <gap:plugin version="1.4.0-dev-11" name="cordova-plugin-crosswalk-webview-pgb-adapt"source="npm"/>
+    <gap:plugin name="cordova-plugin-crosswalk-webview-pgb-adapt" source="npm" version="1.4.0-dev-11"/>
+ 
 
     <platform name="android">
         <icon density="ldpi" src="www/res/icon/android/drawable-ldpi-icon.png" />
