@@ -8,12 +8,14 @@
         PhoneGap Team
     </author>
     <content src="index.html" />
+    <gap:plugin name="cordova-plugin-crosswalk-webview" source="npm" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
     <allow-intent href="tel:*" />
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
+    <allow-navigation href="http://www.meudistribuidor.com.br/*" />
     <allow-navigation href="*" />
     <allow-intent href="*" />
     <access origin="*" />
@@ -23,4 +25,6 @@
     <preference name="StatusBarBackgroundColor" value="#ee6e73" />
     <preference name="StatusBarStyle" value="blacktranslucent" />
     <preference name="xwalkVersion" value="org.xwalk:xwalk_core_library_beta:14+" />
+    <preference name="xwalkCommandLine" value="--disable-pull-to-refresh-effect" />
+    <preference name="xwalkMode" value="lite" />
 </widget>
